@@ -70,6 +70,8 @@ public class Stats {
         }
     }
 
+
+    //Papraðë gynimui sukurti ðità funkcijà
     public static void masyvasPerPuse( int[] masyvas, int zingsnis ){
         int [] pirmaPuse = Arrays.copyOfRange(masyvas, 0, masyvas.length / 2);
         int [] antraPuse = Arrays.copyOfRange(masyvas, masyvas.length / 2, masyvas.length);
